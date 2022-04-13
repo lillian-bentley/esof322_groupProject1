@@ -20,8 +20,8 @@ public class main {
     public static void main(String[] args) throws Exception {
 
         File file = new File("/Users/lillianbentley/NetBeansProjects/GroupProject1/src/groupproject1/notes.txt");
-        Printer notes = new Printer();
-        notes.ReceiveDocument(file);
+        Print notes = new Print();
+        notes.getContent(file);
       }
 
 }
