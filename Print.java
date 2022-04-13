@@ -13,9 +13,15 @@ import java.io.File;
  */
 public class Print {
     
+    /**
+     * getContent() gets the file from the test to send to the printer
+     * @throws Exception in case file is not found
+     * @param file -- note file
+     * 
+     **/
     public void getContent(File file) throws Exception {
-        Printer notes = new Printer();
-        notes.ReceiveDocument(file);
+        Printer notes = new Printer(); // initializes the printer class
+        notes.ReceiveDocument(file); // sends the file into the printer
     }
     
 }

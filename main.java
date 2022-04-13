@@ -19,9 +19,9 @@ public class main {
      */
     public static void main(String[] args) throws Exception {
 
-        File file = new File("/Users/lillianbentley/NetBeansProjects/GroupProject1/src/groupproject1/notes.txt");
-        Print notes = new Print();
-        notes.getContent(file);
+        File file = new File("/Users/lillianbentley/NetBeansProjects/GroupProject1/src/groupproject1/notes.txt"); // file where notes were taken
+        Print notes = new Print(); // initializes the print class to test
+        notes.getContent(file); // sends notes into print
       }
 
 }
