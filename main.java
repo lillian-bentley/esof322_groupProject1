@@ -19,17 +19,9 @@ public class main {
      */
     public static void main(String[] args) throws Exception {
 
-        File file = new File("/Users/lillianbentley/esof322/esof322_groupProject1/notes.txt");
-        Scanner sc = new Scanner(file);
-        StringBuilder str = new StringBuilder();
-
-        while (sc.hasNextLine())
-            str.append(sc.nextLine());
-
-        String send = str.toString();
-        //System.out.println(sc.nextLine());
-
-        print notes = new print(send);
-    }
+        File file = new File("/Users/lillianbentley/NetBeansProjects/GroupProject1/src/groupproject1/notes.txt");
+        Printer notes = new Printer();
+        notes.ReceiveDocument(file);
+      }
 
 }
