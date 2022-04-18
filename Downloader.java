@@ -14,7 +14,7 @@ public class Downloader {
      * @param destination output file
      * @throws IOException
      */
-    public static void downloadFile(File source, File destination) throws IOException
+    public static void getContent(File source, File destination) throws IOException
     {
         InputStream is = null;
         OutputStream os = null;
@@ -41,7 +41,7 @@ public class Downloader {
      * chooseFile asks for input and output file paths and types
      * @throws Exception
      */
-    public static void chooseFile() throws Exception
+    public static void selectFileType() throws Exception
     {
         Scanner fileScan = new Scanner(System.in);
         System.out.println("Enter input file path: "); //Ask for and get Input File
