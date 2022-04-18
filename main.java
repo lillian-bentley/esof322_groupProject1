@@ -22,6 +22,9 @@ public class main {
         File file = new File("/Users/lillianbentley/NetBeansProjects/GroupProject1/src/groupproject1/notes.txt"); // file where notes were taken
         Print notes = new Print(); // initializes the print class to test
         notes.getContent(file); // sends notes into print
+
+        Downloader dlnotes = new Downloader(); //initializes the downloader
+        dlnotes.chooseFile(); //starts the downloader choose file method
       }
 
 }
