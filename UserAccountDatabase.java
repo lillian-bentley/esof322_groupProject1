@@ -1,7 +1,10 @@
+/**
+ * @author Eric Martin
+ */
 interface UserAccountDatabase {
-    
-    String getAccountInfo();
 
-    void login();
+    void getAccountInfo();
+
+    void login(String email, String password);
 
 }
